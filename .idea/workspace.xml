@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d3d60d3-d195-4d42-8500-4910a53dbee1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1Ybsv22v5b09uVHQtyazOOPuErl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/derma/static" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/derma/static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/derma/static" />
+      <recent name="$PROJECT_DIR$/derma" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/static/derma" />
+      <recent name="$PROJECT_DIR$/derma/static/image" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.views">
+    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mysite" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysite" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysite/settings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mysite" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/derma" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/derma/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+        <item itemvalue="Python.settings" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d3d60d3-d195-4d42-8500-4910a53dbee1" name="Default Changelist" comment="" />
+      <created>1583222856055</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583222856055</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="176" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583828372792">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="176" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1296.741@70.27.1296.741" timestamp="1583828372792" />
+    <state x="421" y="202" width="592" height="404" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583405139209">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="421" y="202" width="592" height="404" key="#com.intellij.fileTypes.FileTypeChooser/70.27.1296.741@70.27.1296.741" timestamp="1583405139209" />
+    <state width="1273" height="172" key="GridCell.Tab.0.bottom" timestamp="1583557632583">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="1273" height="172" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1583557632583" />
+    <state width="1273" height="172" key="GridCell.Tab.0.center" timestamp="1583557632582">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="1273" height="172" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1583557632582" />
+    <state width="1273" height="172" key="GridCell.Tab.0.left" timestamp="1583557632582">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="1273" height="172" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1583557632582" />
+    <state width="1273" height="172" key="GridCell.Tab.0.right" timestamp="1583557632583">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="1273" height="172" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1583557632583" />
+    <state x="213" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1583828461553">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="213" y="31" width="1022" height="737" key="SettingsEditor/70.27.1296.741@70.27.1296.741" timestamp="1583828461553" />
+    <state x="374" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1587521567672">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="374" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741@70.27.1296.741" timestamp="1587521567672" />
+    <state x="383" y="75" width="660" height="652" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583412762958">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="383" y="75" width="660" height="652" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/70.27.1296.741@70.27.1296.741" timestamp="1583412762958" />
+    <state x="381" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1583224211472">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="381" y="89" width="672" height="678" key="search.everywhere.popup/70.27.1296.741@70.27.1296.741" timestamp="1583224211472" />
+  </component>
+</project>

@@ -1,0 +1,40 @@
+<html>
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+    <script type="text/javascript" src="{% static 'js/main.js'%}"></script>
+</head>
+<body>
+    <h1 >Dermatological Expert System</h1>
+    <form class="row" action="{% url 'derma:core' %}" enctype="multipart/form-data" method="post">
+        <div class="col">
+            <p>Which part of the body disease is found</p>
+                <input type="radio" id="back" class="body-part" value="back" checked="true" />
+                <lable> Back</lable>
+                <input type="radio" id="face" class="body-part" value="face"/>
+                <lable> Face</lable>
+                <input type="radio" id="joints" class="body-part" value="joints"/>
+                <lable> Joints</lable>
+                <p>Do you have itching sensation</p>
+                <input type="radio" id="yes" class="itching" value="yes" checked="true" />
+                <lable> Yes</lable>
+                <input type="radio" id="no" class="itching" value="no"/>
+                <lable> No</lable>
+                <p>Is the disease spreading across multiple body parts </p>
+                <input type="radio" id="yes" class="spread" value="yes" checked="true" />
+                <lable> Yes</lable>
+                <input type="radio" id="no" class="spread" value="no"/>
+                <lable> No</lable> 
+        </div>
+        <div class="col">
+                {% csrf_token %}
+            <input type="file" id="inputfile" name="inputfile" onchange="loader();">
+                <div id="image-div" class="image-div">
+                    <img src="" id="image" class="image"/> 
+                    <span id="preview"class="preview">Image Preview</span>
+                </div>
+            <input type="submit" value="predict"/>
+        </div>
+    </form>
+</body>
+</html>
