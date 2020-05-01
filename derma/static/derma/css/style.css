@@ -38,7 +38,8 @@ body{
 }
 .preview{
 	text-align: center;
-	margin: center
+	align-items : center;
+	margin: center;
 }
 .row{
 	display: flex;

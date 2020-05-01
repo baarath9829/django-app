@@ -11,18 +11,20 @@ def index(request):
 
 def core(request):
     predict_name= "Nothing"
+    static_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),'static')
+    print(static_path)
     if request.method == 'POST':
         for i in request.FILES:
             print(i);
-            print(".");
+            #print(".");
         file = request.FILES['inputfile']
         #print(file);
         if(file.content_type=='image/jpeg'):
-            with open('derma/static/image/test-img.jpeg', 'wb+') as destination:
+            with open(static_path+'/derma/image/test-img.jpeg', 'wb+') as destination:
                 for chunk in file.chunks():
                     destination.write(chunk)
-            learn = load_learner('derma/static/asserts', 'trained_model101.pkl')
-            img_path = Path('derma/static/image/test-img.jpeg')
+            learn = load_learner(static_path+'/derma/asserts', 'trained_model101.pkl')
+            img_path = os.path.join(static_path,"derma/image/test-img.jpeg")
             img = open_image(img_path)
             predict_name = str(learn.predict(img)[0])
         else:
