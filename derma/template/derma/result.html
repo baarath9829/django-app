@@ -4,11 +4,16 @@
     <link rel="stylesheet" href="{%static 'derma/css/style.css'%}" />
 </head>
 <body class="result">
-    <p>Disease you may be suffering with is :</p>
+    <p>By analysis of your symptoms and images </p>
     {% if result %}
-    <p id="name">{{ result }}</p>
+    <p id="name">You are {{prob}} % probability of having {{ result }} disease</p>
     {% else %}
     <p>Nothing redo</p>
     {% endif %}
+    <p>kindly give feedback to improve prediction</p>
+    <ul><h3> Feedback </h3></ul>
+    <p>Is predicted disease matches with actual disease</p>
+    <button class="btn" type="button" onclick="feedback_yes();">YES</button>
+    <button class="btn" id="neg" type="button" onclick="feddback_no();">NO</button>
 </body>
 </html>

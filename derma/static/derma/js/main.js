@@ -14,4 +14,7 @@ function loader() {
 		reader.readAsDataURL(file);
 	}
 }
-
+function feedback_yes(){
+}
+function feedback_no(){
+}
