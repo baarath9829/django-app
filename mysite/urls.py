@@ -18,7 +18,7 @@ from django.urls import path, include
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
-    path('website/',include('website.url')),
+    #path('website/',include('website.url')),
     path('derma/',include('derma.url')),
     path('admin/', admin.site.urls),
 ]

@@ -7,6 +7,7 @@ app_name="derma"
 urlpatterns = [
     path('',views.index,name='index'),
     path('result/',views.core,name='core'),
+    path('feedback/',views.feedback,name='feedback')
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

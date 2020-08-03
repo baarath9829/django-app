@@ -13,7 +13,12 @@
     <p>kindly give feedback to improve prediction</p>
     <ul><h3> Feedback </h3></ul>
     <p>Is predicted disease matches with actual disease</p>
-    <button class="btn" type="button" onclick="feedback_yes();">YES</button>
-    <button class="btn" id="neg" type="button" onclick="feddback_no();">NO</button>
+    <form action="{% url 'derma:feedback' %}" enctype="multipart/form-data" method="post">
+        {% csrf_token %}
+        <input value="yes" type="radio" name="feedback"> YES
+        <input value="no" type="radio" name="feedback"> NO <br/>
+        <input type="hidden" value="{{ result }}" name="predict">
+        <input class="btn" type="submit" value="submit">
+    </form>
 </body>
 </html>

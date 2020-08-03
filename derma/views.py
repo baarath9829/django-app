@@ -17,7 +17,8 @@ def core(request):
             print(i);
             #print(".");
         file = request.FILES['inputfile']
-        obj = input(label="mela",image=file)
+        #check if it is null
+        obj = input(label="curent",image=file)
         obj.save()
         #print(file);
         if(file.content_type=='image/jpeg'):
@@ -35,3 +36,12 @@ def core(request):
             return render(request,'derma/index.html')
     context={'result':name, 'prob':prob}
     return render(request,'derma/result.html',context)
+def feedback(request):
+    print (request.method)
+    if request.method == 'POST':
+        if request.POST["feedback"] == 'yes':
+            predict = request.POST["predict"]
+            obj = input.objects.latest('id')
+            obj.label = predict
+            obj.save()
+        return render(request,"derma/feedback.html")
