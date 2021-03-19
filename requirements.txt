@@ -38,7 +38,7 @@ nvidia-ml-py3==7.352.0
 olefile==0.46
 packaging==20.1
 pandas==1.0.1
-Pillow==7.0.0
+Pillow==8.1.1
 plac==0.9.6
 preshed==2.0.1
 protobuf==3.12.0
